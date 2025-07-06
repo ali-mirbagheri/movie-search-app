@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* کل صفحه */
+::-webkit-scrollbar {
+  width: 8px; /* ضخامت اسکرول‌بار */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* هیچ بکگراندی */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(100, 100, 100, 0.7); /* رنگ طوسی پررنگ */
+  border-radius: 4px; /* گردی */
+  border: none;
+}
+
+/* برای فایرفاکس */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(100, 100, 100, 0.7) transparent;
+}
